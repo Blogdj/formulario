@@ -12,7 +12,8 @@
         font-family: Arial, sans-serif;
         margin: 0;
         padding: 0;
-        background-color: #f4f4f4;
+        background-color: #d49f9f;
+        text-align: center;
     }
 
     header {
@@ -24,11 +25,12 @@
 
     main {
         padding: 20px;
+        color: rgb(20, 32, 32);
     }
 
     form {
-        background: #ffffff;
-        padding: 20px;
+        background: #fffefe;
+        padding: 25px;
         border-radius: 5px;
         box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
     }
@@ -40,21 +42,32 @@
 
     input[type="text"] {
         width: 100%;
-        padding: 8px;
-        margin-bottom: 10px;
-        border: 1px solid #ccc;
+        padding: 10px 1px;
+        margin-bottom: 1px;
+        border: 1px solid #6d2a2a;
         border-radius: 4px;
     }
+
     input[type="submit"] {
-        background-color: #35424a;
-        color: #ffffff;
+        background-color: #3e3e64;
+        color: #fffcfc;
         border: none;
-        padding: 10px 15px;
-        border-radius: 4px;
+        padding: 1px 30px;
+        border-radius: 10px;
         cursor: pointer;
     }
 
+    flooter {
+        background-color: #35424a;
+        color: #ffffff;
+        text-align: center;
+        padding: 1px 0;
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+        display: block;
 </style>
+
 <body>
     <header>
         <h1>Formulario!</h1>
@@ -68,6 +81,8 @@
                 <input type="text" id="nome" name="pagina1" required>
                 <br><br>
             </form>
+            <!--Criar um botão para enviar-->
+            <input type="submit" value="Enviar">
         </section>
     </main>
     <flooter>
